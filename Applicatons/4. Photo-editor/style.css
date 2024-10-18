@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
+
+
+
+
+
+body-body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+  font-weight: 300;
+  color: white;
+}
+
+.body-body p {
+  margin-bottom: 2em;
+  color: white;
+}
+
+.header-body {
+  border-bottom: solid 1px #e0e0e0;
+  margin: 0 0 20px 0;
+}
+
+.pageTitle,
+.pageSubTitle {
+  font-family: 'Titillium', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.pageTitle {
+  color: #FF7600;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.pageSubTitle {
+  margin-bottom: 1em;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 920px;
+  padding: 40px;
+  margin: 40px auto;
+  background:black;
+  box-shadow:  0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.slogan {
+  position: fixed;
+  display: block;
+  top: 700px;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #222;
+}
+
+.sloganTitle {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #fff;
+  
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+html,
+body {
+    height: 100%;
+}
+.text_box {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+.center_buttons {
+    margin:auto;
+    display:block;
+}
+#imageEditor {
+    margin:auto;
+    padding:20px;
+    border:1px solid #4b4b4b;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    background-color:#f2bc94
+    ;
+}
+
+#editorContainer {
+    display:block;
+    overflow: auto;
+    width: 700px;
+    height: 600px;
+}
+
+#canvas {
+    display:block;
+    margin: auto;
+}
+
+#toolbar {
+    display:block;
+    margin-right: 50px;
+}
+
+#resizer {
+    border:2px dashed #000
+}
+
+#toolbar button {
+    padding: 10px 20px 10px 20px;
+}
